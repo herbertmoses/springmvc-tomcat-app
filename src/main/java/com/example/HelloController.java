@@ -26,7 +26,7 @@ public class HelloController {
         }
 
         model.addAttribute("message",
-                "Welcome " + user.getName() + "Your email is " + " (" + user.getEmail() + ")");
+                "Welcome " + user.getName() + " Your email is " + " (" + user.getEmail() + ")");
         return "result";
     }
 }
